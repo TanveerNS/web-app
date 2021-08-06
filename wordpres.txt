@@ -1,0 +1,243 @@
+Q1. What is WordPress?
+WordPress is a free open source content management system (CMS) written PHP language and licensed under GPL.
+It allows users to create dynamic websites from personal blogs to e-commerce. Wordpress current stable version
+as on Sept 2018 of WordPress is 4.9.8. You can download it free without any cost from
+https://wordpress.org/latest.zip.
+Q2. What year was WordPress released?
+2003
+Q3. What are minimum requirements to run WordPress?
+PHP 7 or greater
+MySQL 5.6 or greater OR MariaDB 10.0 or greater
+The mod_rewrite Apache module
+HTTPS support(Recommended)
+Q4. List some features of WordPress.
+WordPress powers more than 28% of the web and this figure is not limited it rises every day. Everything from
+simple websites, to blogs, to complex portals and enterprise websites, and even applications, are built with
+WordPress.
+Here are some of the features of WordPress.
+It’s Simplicity 
+Easier publishing tools 
+Search Engine Optimized 
+User Management 
+Media Management 
+Easy Theme System 
+Easy Extendability with Plugins 
+Multilingual Support 
+Easy Installation and Upgrades 
+Multilingual Support 
+Built-in Comments System 
+Custom Content Types 
+Q5. What is a plugin in WordPress? List plugin that comes with WordPress.
+WordPress Plugins are a piece of code that contains one or more functions written to extend and add to the
+functionality of an existing WordPress website.
+The core of WordPress is designed to be lean and lightweight, to maximize flexibility and minimize code bloat.
+Plugins then offer custom functions and features so that each user can tailor their site to their specific needs.
+Below is the list of plugins that comes with WordPress installation.
+Akismet
+Hello Dolly
+Q6. What is the difference between wordpress.com and wordpress.org
+The difference is in who’s hosting your site. With org, YOU host your website or blog. This is where you find
+the open source software to download.-com, THEY host for you.
+Q7. Where is WordPress content stored?
+WordPress contents are stored in MySQL database on Server.
+Q8. What are the differences between Posts and Pages?
+Posts and Pages are the two content types in WP.
+Posts are timed and listed in chronological order with the latest posts at the top. Posts are meant to be shared
+and commented on.
+Pages are static are static content, so an about us, contact us page etc. They are permanent and timeless entries.
+Q9. What are the types of hooks in WP and what are their functions?
+There are two types hooks are available in WordPress, action hooks and filter hooks
+They allow the user to, with short snippets of code, modify areas in a theme or plugin without modifying the
+original file.
+Q10. What is an action hook?
+An Action hook in WordPress is a hook that is triggered at a specific time when WordPress is running and lets
+you take an action. This can include things like creating a widget when WordPress is initializing or sending a
+Tweet when someone publishes a post.
+Q11. What is a filter hook?
+A Filter hook in WordPress allows you get and modify WordPress data before it is sent to the database or the
+browser. Some examples of filters would include customizing how excerpts are displayed or adding some
+custom code to the end of a blog post or headings.
+Q12. How do you enable debug mode in WP?
+You can enable debug mode in WP by editing wp-config.php file and changing WP_DEBUG constant value
+to true
+Q13. What is a WordPress taxonomy?
+In WordPress, a “taxonomy” is a grouping mechanism for some posts (or links or custom post types). There are
+four default taxonomies in WordPress they are
+Category
+Tag
+Link Category
+Post Formats
+You are also free to create your custom taxonomies too.
+Also, Read PHP Interview Questions
+Q14. Is WordPress secure?
+Yes. A WP website is completely secure. The error can come from downloading plugins and tools from an
+unauthorized source.
+Q15. How many default tables are the WordPress, Can you list them?
+There are 11 table in wordpress, they are
+wp_options
+wp_users
+wp_links
+wp_commentmeta
+wp_term_relationships
+wp_postmeta
+wp_posts
+wp_term_taxonomy
+wp_usermeta
+wp_terms
+wp_comments
+Q16. What is default table prefix for wordpress?
+wp_ is default prefix for WordPress.
+Q17. What are disadvantages of WordPress?
+Use of multiple plugins can make website heavy to load and slow
+Only utilizes PHP
+Sometimes updates can lead to loss of data, so you always need a backup copy
+Modifying images and tables are difficult.
+Q18. What is the difference between installing and activating a theme?
+When a theme is activated it’s what’s controlling your site, while an installed theme is simply part of your
+theme library and available to activate.
+Q19. Which ‘meta box’ is not hidden by default on Post and Page screens?
+Featured Image is the meta box that is not hidden by default on Post and Page screens.
+Q20. What is the difference between the two URLs in General Settings? (Hint:
+WordPress Address AND eSite Addrss).
+The WordPress Address is where to look for WordPress files, while the Site Address is what will be used as the
+base for creating URLs for web pages.
+Q21. What are Importers in WordPress?
+In WordPress, Importers are plugins that provide the functionality to import a bulk XML file with any number
+of records. It enables to import Posts, Page, Custom Posts and Users data in an XML file.
+Q22. What do you mean by the custom field in WordPress?
+Custom fields are also known as post meta. Post meta is a feature in WordPress which allows post authors to
+add additional information at the time writing a post. WordPress stores this information as metadata in keyvalue
+pairs. Users can later display this metadata by using template tags in their WordPress themes if required.
+Q23. In WordPress, objects are passed by value or by reference.
+In WordPress, all objects are passed by value.
+Q24. What is the loop in WordPress?
+The Loop is PHP code used by WordPress to display posts.
+Q25. How can you disable comments in WordPress?
+To disable comments in WordPress, Please follow below steps
+Step 1: Login to your WordPress admin panel.
+Step 2: Go to the Settings menu.
+Step 3: Under Settings menu click on Discussion.
+Step 4: Uncheck Allow people to post comments on new articles. checkbox
+Step 5: Click on save changes button, you done
+Q26. How to run database Query on WordPress?
+WordPress’s query function allows you to execute any SQL query on the WordPress database. It is best used
+when there is a need for specific, custom, or otherwise complex SQL queries. For more basic queries, such as
+selecting information from a table, see the other wpdb functions above such as get_results, get_var, get_row or
+get_col.
+Syntax
+<?php $wpdb->query('query'); ?>
+Read more from https://codex.wordpress.org/Class_Reference/wpdb#Running_General_Queries
+Q27. List some action and filter hooks functions in WordPress?
+Below are list of some Filter hooks functions
+has_filter()
+add_filter()
+apply_filters()
+apply_filters_ref_array()
+current_filter()
+remove_filter()
+remove_all_filters()
+doing_filter()
+Below are list of some Action hooks functions
+has_action()
+add_action()
+do_action()
+do_action_ref_array()
+did_action()
+remove_action()
+remove_all_actions()
+doing_action()
+Q28. What are the template tags in WordPress? List some of them.
+In WordPress template tags are PHP functions that are used to display information dynamically or customize
+blog template.Below are the list of some generally used template tags in WordPress
+get_header()
+wp_register()
+get_sidebar()
+wp_title()
+wp_enqueue_script()
+get_the_author()
+wp_list_authors()
+category_description()
+get_bookmarks()
+Read More about WordPress template tags from https://codex.wordpress.org/Template_Tags
+Q29. Function to get website url in wordpress?
+get_site_url(); function is used to get website url in wordpress.
+Q30. How will you display error messages during development in WordPress?
+To display error messages in WordPress. Open WordPress wp-cofig.php file and change WP_DEBUG
+constant value to true
+In WordPress, WP_DEBUG is a PHP constant (a permanent global variable) that can be used to trigger the
+“debug” mode throughout the website.
+Q31. List the Positive aspects of WordPress?
+Following are the Positive aspects of WordPress:
+In-built SEO system
+Flexibility
+Community
+Easy theme system
+Easy installation and upgrade
+Easy and flexible publishing option
+Multilingual is available in about more than 70 languages
+Own data full control and no unwanted advert on your personal or commercial website.
+Q32. What is a custom field in WordPress?
+The custom field in WordPress is a meta-data that allows the user to store the arbitrary information in the
+WordPress post. Using the custom field, other extra details can be added to the WordPress post.
+Q33. Mention the rules to be followed while developing the WordPress Plugin?
+While developing a WordPress Plugin, the following rules should be followed step by step:
+Create a unique name.
+Create the folder of Plugin.
+Create a sub-folder for PHP files, translations, and assets.
+Create the main plug-in file and fill up the header information.
+Create activation and de-activation functions.
+Create an uninstall script.
+Create a readme.txt file.
+In case of detecting the paths to plug-in file, use proper functions and constants.
+Q34. Why is MySQL used in WordPress?
+The following features of MySQL satisfy the use of MySQL in WordPress and make it easy for anyone to host
+their website.
+The widely available database server
+Extremely fast
+Open source
+Free of cost
+Supported by many low-cost Linux hosts.
+Q35. Does WordPress use cookies?
+Yes, WordPress has cookies and uses them for verification purpose of the users while they log in.
+Q36. Is wordpress.com more secure than wordpress.org?
+Yes, wordPress.com is considered to be more secure than WordPress.org because it limits the themes and does
+not allow the installation of plugins. But, the security is, however, more dependable on how your website is
+hosted by the hosting company and also the steps they take to prevent the security problems.
+Q37. Why is a static front page used in WordPress and how can you create one?
+Some users want their WordPress installation to be more than a blog. In order to give their page a look like a
+real website, the users tend to use a static front page. The static front page in a WordPress can be created in the
+page section, where the user has to upload a PHP file to the server in the theme folder.And, then later select that
+is selected as a template, and that ultimately allows you to add any page and look that you wanted for your blog
+and will remain static.
+Q38. Which is the considerably best multilingual plugin in WordPress?
+WPML is the best multilingual plugin for WordPress.
+Q39. List the essential features you look for a theme?
+The theme selection varies according to the requirements of the user. But an ideal theme would be something
+that does not restrict the use of number pages, static homepages or plug-ins.
+Q40. What is a child theme?
+The extension of a parent theme is a child theme. In case you make changes to the parent theme, then any
+update will undo the changes. When working on a child theme, the customizations are preserved on an update.
+Q41. Can you list any other CMS better than WordPress?
+No doubt that WordPress is a good CMS, but there are some other best CMS as well that the user can work with
+too, like Drupal and Joomla.
+Q42. Are there any limitations in WordPress?
+Of course, not, there are no limitations to use WordPress.It can be used for innumerable purposes like
+membership site, photo gallery, e-commerce site and any other site you can think of. The website is created with
+the same HTML codes as any other site, so there are no limitations on the website either.
+Q43. What do you do when your WordPress website is hacked?
+Below are the basic steps that can be taken when your WordPress website is hacked
+Install security plugins like WP security
+Re-install the latest version of WordPress
+Change password and user-ids for all your users
+Check if all your themes and plug-ins are up-to-date
+Uninstall all plugins that are downloaded from untrusted places
+Q44. How safe is your website on WordPress?
+WordPress is safe to operate, but it is suggested to keep yourself updated with the latest version of WordPress in
+order to avoid hacking.
+Q45. What is usermeta function in Wordpress?
+The user meta function is used to retrieve the metadata of users. It can return a single value or an array of
+metadata.
+Syntax is: get_user_meta( int $user_id, string $key = '', bool $single = false )
+User id is the required user id parameter
+Key is the optional parameter which is the meta key to retrieve. By default, it returns data for all key values.
+Single is an optional parameter that tells whether the single value will return. By default, it is false.
