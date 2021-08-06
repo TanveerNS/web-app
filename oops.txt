@@ -1,0 +1,62 @@
+java-
+	
+	
+Class-
+		A Class is aReferance Type user defines Data Type which holds both Data and Function.
+		
+Object-
+		
+		
+		
+		
+Infoseek objInfo = new Infoseek();
+Infoseek -
+			Customize type of user define datatype
+objInfo -
+			Object reference variable
+= -
+		Sort sorket operator,assignment operator
+new -
+		new resposible for allocate memory
+Infoseek() -
+			Construtor
+
+
+a
+								______________________________________________________________
+							   |__________________________Stack_______________________________|
+							   |															  | 
+							   |    int i = 0;
+							   |    int a = 10;
+							   |															  | 		
+							   |															  | 
+							   |    Infoseek obj1 = new Infoseek();
+							   |															  | 
+							   |															  | 
+   							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |______________________________________________________________|
+
+							    ______________________________________________________________
+								_________________________Heap_________________________________
+							   |															  | 							   
+							   |	class Infoseek{}														  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+							   |															  | 
+
+
+
+
+
+

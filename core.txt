@@ -1,0 +1,13 @@
+The platformconsists of two essential software:
+• the Java Runtime Environment (JRE), which is needed to run Java applications and applets;
+and,
+• the Java Development Kit (JDK), which is needed to develop those Java applications and applets.
+If you have installed the JDK, you should know that it comes equipped with a JRE as well.
+
+A string is a sequence of characters enclosed in quotation marks.
+
+A logic error causes a program to take an action that the programmer did not intend.You must test your programs to find logic errors.
+
+The Java compiler translates source code into class files that contain instructions for the Java virtual machine.
+
+The Java virtual machine loads program instructions from class files and library files.

@@ -1,0 +1,56 @@
+servlets embed content into logic, whereas JSP pages embed logic into content
+
+JSP pages contain markup interlaced with special JSP elements that provide logic for controllingthe dynamic content. Servlets are built using Java classes that contain statements tooutput markup code.
+
+A servlet is a server-side component that is capable of dynamically processing requests and constructing responses in a protocol-independent manner.
+
+advantage of servlet technology
+
+• Simplicity: Servlets are easy to write, and all the complicated threading and request
+delegating is managed by the servlet container.
+
+• Extensibility: The Servlet API is completely protocol independent.
+
+• Efficiency:Unlike CGI scripts, the execution of a servlet doesn’t require a separate
+process to be spawned by the web server each time.
+
+• Performance: Servlets are persistent, and their life cycle extends beyond that of each
+HTTP request.
+
+JSP elements:
+
+• Scripting elements
+• Directives
+• Action elements
+
+Any non-JSP code located inside a JSP page is known as template text. Template text can take any form as long as it’s text based. The most common form of template text is markup such as HTML or XML.
+
+Scripting Elements
+
+Scripting elements are used within a JSP page to manipulate objects and perform computations that enable the generation of dynamic content. Scripting elements can be classified into the following categories:
+
+• Comments
+• Declarations
+• Scriptlets
+• Expressions
+• Expression language expressions
+
+comments
+JSP comments may be declared inside a JSP page as follows:
+<%-- This is a JSP comment --%>
+<!-- This is an HTML comment -->
+
+JSP Directives
+Directives are used for passing important information to the JSP engine.
+JSP page authors have the following three types of directives at their disposal:
+
+• page directives
+• include directives
+• taglib directives
+
+Action Elements
+
+there are three types of action elements:
+• Standard actions
+• Custom actions
+• JSTL actions
